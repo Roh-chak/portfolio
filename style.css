@@ -718,7 +718,7 @@ h1:hover {
   .wraper {
     display: grid;
     grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 45px 721px 65px 380px 425px 65px 100px 500px;
+    grid-template-rows: 45px 721px 65px 380px 425px 65px 116px 500px;
   }
   .main-texts p {
     width: 20rem;
@@ -777,6 +777,8 @@ h1:hover {
     grid-column-end: 4;
     padding: 0;
     border-top: 0;
+    line-height: 1.7rem;
+    letter-spacing: 0;
   }
   .projects-para {
     padding: 0 1.25rem;
@@ -868,7 +870,7 @@ h1:hover {
   .wraper {
     display: grid;
     grid-template-columns: 20% 40% 40%;
-    grid-template-rows: 45px 721px 65px 380px 425px 65px 100px 500px;
+    grid-template-rows: 45px 721px 65px 380px 425px 65px 116px 500px;
   }
   .main-texts p {
     width: 20rem;
