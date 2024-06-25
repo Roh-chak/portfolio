@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
-
+  background-color: #060606;
 }
 
 .c4-mobile, .c5-mobile {
@@ -736,7 +736,7 @@ h1:hover {
     border: 0;
   }
   .about-img {
-    width: 12.5rem;
+    width: 14.5rem;
     height: 21.875rem;
     border-radius: 1.5625rem;
   }
@@ -780,6 +780,17 @@ h1:hover {
     line-height: 1.7rem;
     letter-spacing: 0;
   }
+  .projects-cards {
+    overflow-x: auto;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .card-1 {
+    margin-left: 5.625rem;
+  }
+  .card-3 {
+    margin-right: 5.625rem;
+  }
   .projects-para {
     padding: 0 1.25rem;
     margin: 0;
@@ -791,7 +802,7 @@ h1:hover {
   }
   .projects-des-div {
     margin: 0.625rem;
-    width: 9.375rem;
+    width: 13.375rem;
   }
   .c9 {
     grid-column-start: 1;
@@ -803,6 +814,7 @@ h1:hover {
     grid-column-end: 4;
     padding: 0;
     border-top: 0;
+    line-height: 1.7rem;
   }
   .skills-subheading {
     font-size: 1.375rem;
@@ -834,6 +846,7 @@ h1:hover {
   .c12 {
     grid-column-start: 1;
     grid-column-end: 4;
+    margin-top: 2.8125rem;
   }
   .c13 {
     grid-column-start: 1;
@@ -850,7 +863,7 @@ h1:hover {
     margin-left: 1.25rem;
   }
   .social-img {
-    height: 1.875rem;
+    height: 1.375rem;
   }
   .email-and-number-div {
     margin-left: 1.25rem;
