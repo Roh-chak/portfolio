@@ -34,11 +34,39 @@ body {
   line-height: 1.625rem;
   background-color: #060606; 
   padding: 1.25rem;
+  padding-left: 0.875rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   border-bottom: whitesmoke 0.125rem solid;
 
+}
+.logo p {
+  color: whitesmoke;
+  font-size: 1.125rem;
+  margin-left: 1.25rem;
+}
+
+
+.logo p:hover::after {
+  animation: myname .6s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease;
+  position: relative;
+  color: #48da9b;
+  content: 'ohit Chaki';
+  opacity: 0;
+}
+
+@keyframes myname {
+  from {left: -30px;}
+  to {left: 0}
+  100% {opacity: 1;}
+}
+
+
+.logo p:hover {
+  color: #48da9b;
 }
 
 .curly-brackets-open, .curly-brackets-close {
@@ -60,7 +88,7 @@ body {
 .nav-links li a {
   text-decoration: none;
   color: white;
-  font-weight: bold;
+  font-weight: lighter;
 }
 /* navbar end */
 
@@ -109,10 +137,6 @@ main {
   font-weight: 900;
   color: #48da9b;
   margin-bottom: 0;
-}
-
-h1:hover {
-  transform: rotate(180deg);
 }
 
 /* about */
@@ -194,6 +218,7 @@ h1:hover {
 
 .about-img {
   height: 80%;
+  border-radius: 1.5625rem;
 }
 
 /* .asterics {
@@ -249,6 +274,12 @@ h1:hover {
 
 .c8 {
   background-color: #060606;
+  /* background-image: url('images/asterisk-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: top; */
+  /* animation:spin 4s linear infinite; */
+  /* background-size: 1200px; */
   grid-column-start: 1;
   grid-column-end: 4;
   display: flex;
@@ -261,6 +292,11 @@ h1:hover {
   font-weight: 500;
   letter-spacing: 0;
   line-height: 1.625rem;
+}
+
+@keyframes spin{
+	from{transform:rotate(0deg)}
+	to{transform:rotate(360deg)}	
 }
 
 .projects-subheading {
@@ -447,6 +483,7 @@ h1:hover {
 
 .social-img {
   height: 2.8125rem;
+  width: 2.8125rem;
 }
 
 .linkedin-icon {
@@ -490,6 +527,7 @@ h1:hover {
 .c14 {
   background-color: sienna;
 }
+
 
 
 /* desktop responsive */
