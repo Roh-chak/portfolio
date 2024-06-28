@@ -212,11 +212,22 @@ gsapMediaQ.add('(max-width: 425px)', () => {
     scrollTrigger: {
       trigger: '.projects-subheading',
       start: 'top 100%',
-      end: 'bottom 1%',
+      end: 'bottom 30%',
       scrub: true,
       marker: true
     }
   })
+
+  let tlProjectCard = gsap.timeline({
+    scrollTrigger: {
+      trigger: '.projects-cards',
+      start: 'top 95%',
+      end: 'bottom 85%',
+      scrub: true,
+      marker: true
+    }
+  })
+
   
   let tl3 = gsap.timeline({
     scrollTrigger: {
@@ -272,18 +283,18 @@ gsapMediaQ.add('(max-width: 425px)', () => {
     opacity: 0
   })
   
-  tl2.from('.card-1', {
-    y: 400,
+  tlProjectCard.from('.card-1', {
+    y: 200,
     opacity: 0
   })
   
-  tl2.from('.card-2', {
-    y: 390,
+  tlProjectCard.from('.card-2', {
+    y: 195,
     opacity: 0
   })
   
-  tl2.from('.card-3', {
-    y: 370,
+  tlProjectCard.from('.card-3', {
+    y: 190,
     opacity: 0
   })
   
