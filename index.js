@@ -1,3 +1,21 @@
+let projectNavBtn = document.querySelector('.project-btn')
+let projectArea = document.querySelector('.c6');
+projectNavBtn.addEventListener('click', () => {
+  projectArea.scrollIntoView({behavior: "smooth"})
+})
+
+let skillNavBtn = document.querySelector('.skill-btn')
+let skillArea = document.querySelector('.c9');
+skillNavBtn.addEventListener('click', () => {
+  skillArea.scrollIntoView({behavior: "smooth"})
+})
+
+let contactNavBtn = document.querySelector('.contact-btn')
+let contactArea = document.querySelector('.c13');
+contactNavBtn.addEventListener('click', () => {
+  contactArea.scrollIntoView({behavior: "smooth"})
+})
+
 let gsapMediaQ = gsap.matchMedia();
 gsapMediaQ.add('(min-width: 1024px)', () => {
   gsap.from('.curly-brackets-close', {

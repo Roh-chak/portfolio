@@ -45,6 +45,7 @@ body {
   color: whitesmoke;
   font-size: 1.125rem;
   margin-left: 1.25rem;
+  cursor: pointer;
 }
 
 
@@ -83,12 +84,10 @@ body {
 .nav-links li {
   display: inline-block;
   margin-right: 1.25rem;
-}
-
-.nav-links li a {
   text-decoration: none;
   color: white;
   font-weight: lighter;
+  cursor: pointer;
 }
 /* navbar end */
 
