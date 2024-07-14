@@ -14,7 +14,6 @@ body {
   grid-template-columns: 20% 40% 40%;
   grid-template-rows: 60px 680px 680px 120px 500px 120px 720px 250px;
   /* border: none; */
-
 }
 
 .child {
@@ -55,19 +54,29 @@ body {
   animation-timing-function: ease;
   position: relative;
   color: #48da9b;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   content: 'ohit Chaki';
   opacity: 0;
 }
 
-@keyframes myname {
+/* @keyframes myname {
   from {left: -20px;}
   to {left: 0}
   100% {opacity: 1;}
-}
+} */
 
 
 .logo p:hover {
   color: #48da9b;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .curly-brackets-open, .curly-brackets-close {
@@ -80,6 +89,28 @@ body {
   padding: 0;
   margin: 0;
 }
+
+.project-btn:hover {
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.contact-btn:hover {
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.skill-btn:hover {
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+    -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
 
 .nav-links li {
   display: inline-block;
@@ -135,7 +166,13 @@ main {
   font-size: 3.125rem;
   font-weight: 900;
   color: #48da9b;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
   margin-bottom: 0;
+  line-height: 4rem;
 }
 
 /* about */
@@ -164,6 +201,11 @@ main {
 
 .about-subheading {
   margin-top:0.125rem;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 
@@ -301,6 +343,11 @@ main {
 .projects-subheading {
   margin-top: 1.375rem;
   color: #48da9b;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .projects-cards {
@@ -400,6 +447,11 @@ main {
 .skills-subheading {
   color: #48da9b;
   margin-top: 1.375rem;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
 
 .stack {
@@ -479,6 +531,12 @@ main {
 
 .contact-subheading {
   color: #48da9b;
+  background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+
 }
 
 .social-img {
@@ -543,6 +601,13 @@ main {
   }
   .quotation-mark {
     margin-top: 8.75rem;
+  }
+  #Rectangle {
+    background: linear-gradient(86deg, rgba(34,246,76,1) 0%, rgba(72,218,155,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
   }
   .c7 {
     letter-spacing: 0.0625rem;

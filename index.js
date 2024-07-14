@@ -173,28 +173,13 @@ gsapMediaQ.add('(min-width: 1024px)', () => {
   
 })
 
-gsapMediaQ.add('(max-width: 425px)', () => {
-  // gsap.from('.curly-brackets-close', {
-  //   duration:2,
-  //   scale: .7,
-  //   x:-400
-  // })
-  
-  // gsap.from('.curly-brackets-open', {
-  //   duration:2,
-  //   scale: .7,
-  //   x:400
-  // })
-  
+gsapMediaQ.add('(max-width: 425px)', () => {  
   gsap.from('.main-texts', {
     duration:2,
     delay: .6,
     opacity: 0,
     scale: .9,
   })
-  
-  
-  
   
   let tl = gsap.timeline({
     scrollTrigger: {
