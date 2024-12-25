@@ -362,13 +362,13 @@ main {
   width: 16.25rem;
   height: 30rem;
   border-radius: 1.5625rem;
-  background-image: url(images/comingSoon.jpg);
+  background-image: url('images/comingSoon.jpg');
   background-repeat: no-repeat;
   background-size: 75rem;
 }
 
 .card-2 {
-	background-image: url(`images/FlickChoise.jpg`);
+	background-image: url('images/FlickChoise.jpg');
 }
 
 .projects-img {
