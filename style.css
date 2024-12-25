@@ -367,6 +367,10 @@ main {
   background-size: 75rem;
 }
 
+.card-2 {
+	background-image: url(`FlickChoise.jpg`);
+}
+
 .projects-img {
   width: 16.25rem;
   height: 30rem;
