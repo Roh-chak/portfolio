@@ -897,7 +897,7 @@ main {
 
 /* 414×896 */
 @media (width <= 414px) {
-  .body {
+  body {
     overflow-y: scroll;
   }
   .down-svg, .c4, .c5, .curly-brackets-open, .curly-brackets-close {
